@@ -11,11 +11,11 @@ var state = 0;
 //event listener toevoegen aan een element
 knop.addEventListener("click", function() {
     if(state === 0) {
-        testDiv.innerHTML = teskt2;
+        testDiv.innerHTML = teskt1;
         state = 1;
     }
     else {
-        testDiv.innerHTML = teskt1;
+        testDiv.innerHTML = teskt2;
         state = 0;
     }
 });
