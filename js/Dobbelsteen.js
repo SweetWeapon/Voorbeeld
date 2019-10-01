@@ -7,6 +7,7 @@ btnDobbelsteen.addEventListener("click", function() {
     uitvoerDobbelsteen.innerHTML = getal;
 });
 
+//functie om een willekeurig getal te verkrijgen tussen min en max. min en max zijn parameters die worden meegegeven wanneer de functie wordt aangeroepen
 function getRandomInt(min, max) {
     return Math.round(Math.random() * (max - min ) + min);
 }
