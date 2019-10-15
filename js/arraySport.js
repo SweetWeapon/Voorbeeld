@@ -45,7 +45,7 @@ btnGeenBalsport.addEventListener("click", function(){
     //doorlopen van heel de balSportArray
     for(var i = 0; i < geenBalsportArray.length; i++){
         //elk element uit balsportArray controleren tov de sport die sportkeuze staat
-        if(sport === geenBalsportArraybalsportArray[i]) {
+        if(sport === geenBalsportArray[i]) {
             //we hebben juist gekozen
             juistGekozen = true
         }

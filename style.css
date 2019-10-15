@@ -22,3 +22,7 @@ nav ul li a {
 main {
     text-align: center
 }
+
+#imgPersoon1, #imgPersoon2 {
+    width: 200px;
+}
