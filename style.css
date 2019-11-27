@@ -20,9 +20,12 @@ nav ul li a {
     text-decoration: none;
 }
 main {
-    text-align: center
+    
 }
 
 #imgPersoon1, #imgPersoon2 {
     width: 200px;
+}
+.cell {
+    border : 1px solid black
 }

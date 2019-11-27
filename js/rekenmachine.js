@@ -43,7 +43,7 @@ btnQuotient.addEventListener("click", function() {
     
     uitvoer.appendChild(paragraph);
 });
-
+//functie
 function createParagraph() {
     let paragraph = document.createElement("p");
     

@@ -3,6 +3,9 @@
     <head>
         <title>Voorbeeldproject - Home</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <!-- Compressed CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css"   crossorigin="anonymous">
+        
     </head>
     <body>
         <header>
@@ -12,12 +15,28 @@
                     <li><a href="html/contact.html">Contact</a></li>
                     <li><a href="html/js-oefening.html">JS-Oefeningen</a></li>
                     <li><a href="html/MiniGame.html">MiniGame</a></li>
+                    <li><a href="Grid.html">Grid</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>Home</h1>
+            <div class="grid-x">
+                <div class="cell">full width cell</div>
+                <div class="cell">full width cell</div>
+            </div>
+            <div class="grid-x">
+                <div class="cell small-6">6 cells</div>
+                <div class="cell small-6">6 cells</div>
+            </div>
+            <div class="grid-x">
+                <div class="cell medium-6 large-4">12/6/4 cells</div>
+                <div class="cell medium-6 large-8">12/6/8 cells</div>
+            </div>
+            </div>
         </main>
         <footer></footer>
+        
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     </body>
 </html>
